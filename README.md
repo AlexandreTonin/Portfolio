@@ -7,8 +7,8 @@
 <h3> Front-end </h3>
 <ul>
 <li> Desenvolvimento web com Html, Css e JavaScript puro; </li>
-<li> Desenvolvimento de interface mobile (Android/iOS); </li>
 <li> Desenvolvimento de interfaces web com uso de Frameworks, Bibliotecas e APIs. </li>
+<li> Desenvolvimento de interface mobile (Android/iOS); </li>
 </ul>
 <h3> Back-end </h3>
 <ul>
