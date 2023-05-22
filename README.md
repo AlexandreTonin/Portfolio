@@ -1,7 +1,7 @@
 <h1> Portfólio Profissional - ❕ (Em desenvolvimento) ❕ </h1>
 <p> Bem-vindo ao meu portfólio profissional! Este repositório contém uma coleção de projetos que demonstro minhas habilidades e competências como desenvolvedor. </p>
 
-<p> Cada projeto está documentado com detalhes sobre suas funções, tecnologias utilizadas, desafios enfrentados e soluções encontradas.</p>
+<p> Cada projeto está documentado com detalhes sobre suas funções e tecnologias utilizadas.</p>
 
 <p> Este portfólio é organizado em categorias que mostram minha especialização em diferentes áreas como: </p>
 <h3> Front-end </h3>
