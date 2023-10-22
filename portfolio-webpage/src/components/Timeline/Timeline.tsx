@@ -8,16 +8,18 @@ const Timeline = () => {
             <div className="dark:text-white text-gray-900">
                 <div className="flex flex-col items-start md:flex-row lg:py-0 py-8">
                     <div className="flex flex-col w-full sticky top-0 md:top-36 lg:w-1/3 mt-2 md:mt-12">
-                        <RevealWrapper delay={1500} origin="none" duration={2000}>
+                        <RevealWrapper delay={500} origin="none" duration={500}>
                             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 sticky top-0 z-50">Visualize minhas formações</p>
                         </RevealWrapper>
                     </div>
                     <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
                         <div className="w-full h-full">
                             <div className="relative wrap overflow-hidden lg:p-10 h-full">
-                                <div className="dark:border-sky-400 border-sky-600 absolute h-full border-2 right-1/2 rounded-full lg:block hidden">
-                                </div>
-                                <RevealWrapper delay={2500} duration={2000} className="load-hidden">
+                                <RevealWrapper delay={750} duration={500} className="dark:border-sky-400 border-sky-600 absolute h-full border-2 right-1/2 rounded-full lg:block hidden">
+                                    <div className="">
+                                    </div>
+                                </RevealWrapper>
+                                <RevealWrapper delay={1000} duration={500} className="load-hidden">
                                     <TimelineItem className="flex-row-reverse text-right" title="Unijuí" date="(2022 - 2026)" course="Bacharelado em Engenharia de Software" description="Em 2022, iniciei o curso de Engenharia de Software, atualmente estou no 4º semestre. No decorrer do curso, explorei diversos tópicos essenciais de engenharia, engenharia de software, computação e modelagem matemática." andamento url="https://www.unijui.edu.br/estude/graduacao/cursos/engenharia-de-software-bacharelado-289" certifiedUrl="/matricula.pdf" certified />
 
                                     <TimelineItem className="" title="Escola Ténica 25 de Julho" date="(2019 - 2021)" course="Curso Técnico em Informática" description="Em 2019, iniciei um técnologo em Informática integrado ao ensino médio, onde explorei tópicos como desenvolvimento web, redes de computadores, sistemas operacionais, análise de sistemas, conceitos de hardware e manutenção de computadores" url="https://escola25dejulho.com.br/tecnico.php?id=1" certifiedUrl="/tec.png" certified />

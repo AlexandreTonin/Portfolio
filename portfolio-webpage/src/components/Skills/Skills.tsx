@@ -11,27 +11,27 @@ const Styles = {
 const Skills = () => {
   return (
     <section className={Styles.sectionContainer} id='skills'>
-      <RevealWrapper delay={500} duration={2000} className="load-hidden">
+      <RevealWrapper delay={250} duration={500} className="load-hidden">
         <SectionName text="/habilidades" />
       </RevealWrapper>
 
       <div className="py-6 flex justify-between">
         <div>
           <div className="text-lg">
-            <RevealWrapper delay={1500} duration={2000} className="load-hidden">
+            <RevealWrapper delay={500} duration={500} className="load-hidden">
               <SkillsGrid title="Engenharia de Software" softeng />
             </RevealWrapper>
           </div>
-          <RevealWrapper delay={2000} duration={2000} className="load-hidden">
+          <RevealWrapper delay={750} duration={500} className="load-hidden">
 
             <SkillsGrid title="Front End" frontend />
           </RevealWrapper>
 
-          <RevealWrapper delay={2500} duration={2000} className="load-hidden">
+          <RevealWrapper delay={1000} duration={500} className="load-hidden">
             <SkillsGrid title="Back End" backend />
           </RevealWrapper>
 
-          <RevealWrapper delay={3000} duration={2000} className="load-hidden">
+          <RevealWrapper delay={1250} duration={500} className="load-hidden">
             <SkillsGrid title="Ferramentas" tools />
           </RevealWrapper>
         </div>

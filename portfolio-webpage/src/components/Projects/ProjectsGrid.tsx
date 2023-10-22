@@ -8,13 +8,13 @@ const ProjectsGrid = () => {
     return (
         <div className="py-12">
             <section className="lg:text-left">
-                <RevealWrapper delay={1500} duration={2000} className="load-hidden">
+                <RevealWrapper delay={500} duration={500} className="load-hidden">
                     <h2 className="text-3xl font-bold mb-12">
                         Visualize meus projetos
                     </h2>
                 </RevealWrapper>
 
-                <RevealWrapper delay={2500} duration={2000} className="load-hidden">
+                <RevealWrapper delay={750} duration={500} className="load-hidden">
                     <div className="grid gap-x-6 lg:grid-cols-3 gap-y-6">
                         <Project projectLink={"http://systemize-ti.com"} imgUrl={"/systemize.jpg"} altText="lorem" ProjectTitle="Systemize" fullstack description="Este projeto trata-se do desenvolvimento do website da minha empresa de consultoria de TI, utilizando React, Next.Js e Python. Até o momento, eu e meus dois sócios estamos construindo uma dashboard completa do zero, voltada para atender às necessidades exclusivas de nossos clientes." />
                         <Project projectLink={"https://swift-rent.vercel.app"} imgUrl={"/logo-swiftrent.jpg"} completo altText="lorem" ProjectTitle="Swift Rent" frontend description="A SwiftRent trata-se de uma landing page de uma empresa fictícia de aluguel de automóveis, desenvolvida com Html e Tailwind CSS. O projeto foi desenvolvido inteiramente por mim, desde o design da marca até o desenvolvimento da webpage. " />

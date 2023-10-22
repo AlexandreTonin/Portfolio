@@ -15,7 +15,7 @@ const Styles = {
 const Projects = () => {
     return (
         <section className={Styles.sectionContainer} id='projects'>
-            <RevealWrapper delay={500} duration={2000} className="load-hidden">
+            <RevealWrapper delay={250} duration={500} className="load-hidden">
                 <SectionName text="/projetos" />
             </RevealWrapper>
 

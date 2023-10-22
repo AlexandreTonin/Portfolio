@@ -37,10 +37,11 @@ const Hero = () => {
                 <div className='lg:mt-20 mt-8'>
                     <RevealWrapper origin='top' delay={2000} duration={2000}>
                         <h1 className={Styles.name}>
+                            Seja bem vindo ao meu portfólio
                             <TypewriterComponent
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('Seja bem vindo ao meu portfólio <br> Me chamo Alexandre Tonin <br><br> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
+                                        .typeString('<br> Me chamo Alexandre Tonin <br> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
                                         .pauseFor(2000)
                                         .start();
                                 }}
@@ -49,7 +50,7 @@ const Hero = () => {
                     </RevealWrapper>
                 </div>
 
-                <RevealWrapper origin='top' delay={13000} duration={2000}>
+                <RevealWrapper origin='top' delay={8000} duration={2000}>
                     <div className='lg:flex mt-20 hidden gap-8'>
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
@@ -61,7 +62,7 @@ const Hero = () => {
                 </RevealWrapper>
 
                 <div className='hidden lg:block mt-20'>
-                    <RevealWrapper origin='top' delay={18300} duration={2000}>
+                    <RevealWrapper origin='top' delay={13500} duration={2000}>
                         <Lottie animationData={scroll} className='w-10 hidden dark:block'></Lottie>
                         <Lottie animationData={scrollblack} className='w-10 dark:hidden'></Lottie>
                     </RevealWrapper>

@@ -13,7 +13,7 @@ const Styles = {
 const Formations = () => {
     return (
         <section className={Styles.sectionContainer} id='formations'>
-            <RevealWrapper origin='top' delay={500} duration={2000}>
+            <RevealWrapper origin='top' delay={250} duration={500}>
                 <SectionName text="/formações" />
             </RevealWrapper>
             
