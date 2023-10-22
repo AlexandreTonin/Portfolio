@@ -16,7 +16,7 @@ const Formations = () => {
             <RevealWrapper origin='top' delay={250} duration={500}>
                 <SectionName text="/formações" />
             </RevealWrapper>
-            
+
             <Timeline />
         </section>
     )

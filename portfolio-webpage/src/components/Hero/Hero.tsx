@@ -27,8 +27,8 @@ const Hero = () => {
         <section className={Styles.hero} id='about'>
 
             <div className='lg:-mt-0 -mt-12'>
-                <Lottie animationData={hello2} loop={false} className='w-60 -ml-12 -mt-12 hidden dark:block'></Lottie>
-                <Lottie animationData={helloblack} loop={false} className='w-60 -ml-12 -mt-12 dark:hidden'></Lottie>
+                <Lottie animationData={hello2} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 lg:-mb-0 -mb-8 hidden dark:block'></Lottie>
+                <Lottie animationData={helloblack} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 dark:hidden lg:-mb-0 -mb-8'></Lottie>
 
                 <RevealWrapper origin='top' delay={1500} duration={2000}>
                     <SectionName text="/sobre" />
@@ -41,7 +41,7 @@ const Hero = () => {
                             <TypewriterComponent
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('<br> Me chamo Alexandre Tonin <br> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
+                                        .typeString('<br> Me chamo Alexandre <br> <br class="lg:hidden"> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
                                         .pauseFor(2000)
                                         .start();
                                 }}
