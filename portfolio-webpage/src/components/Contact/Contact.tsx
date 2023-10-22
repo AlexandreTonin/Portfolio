@@ -54,7 +54,7 @@ const Contact = () => {
                     <SectionName text="/contato" />
                 </RevealWrapper>
                 <div className="py-14">
-                    <div className="max-w-screen-xl text-gray-300">
+                    <div className="max-w-screen-xl dark:text-gray-300 text-gray-700">
                         <div className="max-w-xl space-y-3">
                             <RevealWrapper delay={1500} duration={2000} className="load-hidden">
                                 <p className="text-gray-900 dark:text-white text-3xl sm:text-4xl">
@@ -74,7 +74,7 @@ const Contact = () => {
                                         <li key={idx}>
                                             <h4 className="text-sky-600 dark:text-sky-400 text-lg font-medium">{item.title}</h4>
                                             <div className="mt-3 flex items-center gap-x-3">
-                                                <div className="flex-none text-gray-400">
+                                                <div className="flex-none dark:text-gray-400 text-gray-700">
                                                     {item.icon}
                                                 </div>
                                                 <p>{item.contact}</p>
