@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.stroke {
-  -webkit-text-stroke: 1px white;
-  color: black;
-  font-size: 200px;
+* {
+  scroll-behavior: smooth;
 }
+
