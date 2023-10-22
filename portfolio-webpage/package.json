@@ -13,6 +13,7 @@
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@vercel/analytics": "^1.1.1",
     "font-face": "^2.3.4",
     "framer-motion": "^10.16.4",
     "lottie-react": "^2.4.0",
