@@ -41,7 +41,7 @@ const Hero = () => {
                             <TypewriterComponent
                                 onInit={(typewriter) => {
                                     typewriter
-                                        .typeString('<br> Me chamo Alexandre <br> <br class="lg:hidden"> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
+                                        .typeString('<br> Me chamo Alexandre Tonin <br> <br class="lg:hidden"> Sou desenvolvedor Front-end e estudante de Engenharia de Software.')
                                         .pauseFor(2000)
                                         .start();
                                 }}
