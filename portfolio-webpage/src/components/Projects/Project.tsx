@@ -3,7 +3,7 @@ import Tag from "../Tag/Tag";
 const Project = (props: any) => {
 
     return (
-        <div className="py-8 lg:mb-0 shadow-[0px_0px_10px_2px_rgba(0,0,0,0.1)] rounded-md dark:shadow-none">
+        <div className="py-8 lg:mb-0 shadow-[0px_0px_10px_2px_rgba(0,0,0,0.1)] p-4 dark:p-0 rounded-md dark:shadow-none">
             <div className="relative mb-6 overflow-hidden h-52 lg:h-64 rounded-lg shadow dark:shadow-black/20" >
                 <img src={props.imgUrl} alt={props.altText} className="object-cover w-full lg:h-64 h-52" />
 
