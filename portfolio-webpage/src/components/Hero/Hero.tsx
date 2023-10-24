@@ -26,7 +26,7 @@ const Hero = () => {
     return (
         <section className={Styles.hero} id='about'>
 
-            <div className='lg:-mt-0 -mt-12'>
+            <div className='lg:-mt-0 -mt-12	'>
                 <Lottie animationData={hello2} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 lg:-mb-0 -mb-8 hidden dark:block'></Lottie>
                 <Lottie animationData={helloblack} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 dark:hidden lg:-mb-0 -mb-8'></Lottie>
 

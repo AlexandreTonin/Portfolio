@@ -15,7 +15,7 @@ const poppins = Poppins({
 })
 
 const Styles = {
-  mainContainer: "w-screen overflow-hidden bg-white dark:bg-[#0d1117]",
+  mainContainer: "max-w-screen overflow-hidden bg-white dark:bg-[#0d1117]",
 }
 
 // dark: #0D1117
