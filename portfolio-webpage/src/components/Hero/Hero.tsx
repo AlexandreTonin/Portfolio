@@ -26,7 +26,7 @@ const Hero = () => {
     return (
         <section className={Styles.hero} id='about'>
 
-            <div className='lg:-mt-0 -mt-12	'>
+            <div className='lg:-mt-0 -mt-12	lg:flex-1'>
                 <Lottie animationData={hello2} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 lg:-mb-0 -mb-8 hidden dark:block'></Lottie>
                 <Lottie animationData={helloblack} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 dark:hidden lg:-mb-0 -mb-8'></Lottie>
 
@@ -51,7 +51,7 @@ const Hero = () => {
                 </div>
 
                 <RevealWrapper origin='top' delay={8000} duration={2000} className="load-hidden">
-                    <div className='lg:flex mt-20 hidden gap-8'>
+                    <div className='flex mt-20 gap-8 flex-wrap'>
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center lg:justify-end lg:flex-1'>
                 <RevealWrapper origin='top' delay={4000} duration={2000} className="load-hidden">
                     <Lottie animationData={developer} className='w-[400px] lg:w-[500px] lg:mt-40 mt-20'></Lottie>
                 </RevealWrapper>
