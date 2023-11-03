@@ -30,12 +30,12 @@ const Hero = () => {
                 <Lottie animationData={hello2} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 lg:-mb-0 -mb-8 hidden dark:block'></Lottie>
                 <Lottie animationData={helloblack} loop={false} className='w-60 -ml-12 lg:-mt-12 -mt-24 dark:hidden lg:-mb-0 -mb-8'></Lottie>
 
-                <RevealWrapper origin='top' delay={1500} duration={2000}>
+                <RevealWrapper origin='top' delay={1500} duration={2000} className="load-hidden">
                     <SectionName text="/sobre" />
                 </RevealWrapper>
 
                 <div className='lg:mt-20 mt-8'>
-                    <RevealWrapper origin='top' delay={2000} duration={2000}>
+                    <RevealWrapper origin='top' delay={2000} duration={2000} className="load-hidden">
                         <h1 className={Styles.name}>
                             Seja bem vindo ao meu portfólio
                             <TypewriterComponent
@@ -50,7 +50,7 @@ const Hero = () => {
                     </RevealWrapper>
                 </div>
 
-                <RevealWrapper origin='top' delay={8000} duration={2000}>
+                <RevealWrapper origin='top' delay={8000} duration={2000} className="load-hidden">
                     <div className='lg:flex mt-20 hidden gap-8'>
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
@@ -62,7 +62,7 @@ const Hero = () => {
                 </RevealWrapper>
 
                 <div className='hidden lg:block mt-20'>
-                    <RevealWrapper origin='top' delay={13500} duration={2000}>
+                    <RevealWrapper origin='top' delay={13500} duration={2000} className="load-hidden">
                         <Lottie animationData={scroll} className='w-10 hidden dark:block'></Lottie>
                         <Lottie animationData={scrollblack} className='w-10 dark:hidden'></Lottie>
                     </RevealWrapper>
@@ -70,7 +70,7 @@ const Hero = () => {
             </div>
 
             <div className='flex justify-center'>
-                <RevealWrapper origin='top' delay={4000} duration={2000}>
+                <RevealWrapper origin='top' delay={4000} duration={2000} className="load-hidden">
                     <Lottie animationData={developer} className='w-[400px] lg:w-[500px] lg:mt-40 mt-20'></Lottie>
                 </RevealWrapper>
             </div>
