@@ -1,4 +1,5 @@
 import Tag from "../Tag/Tag";
+import { BsBoxArrowUpRight } from 'react-icons/bs'
 
 const Project = (props: any) => {
 
@@ -12,7 +13,9 @@ const Project = (props: any) => {
                     </div>
                 </a>
             </div>
-            <h5 className="mb-4 text-xl font-bold">{props.ProjectTitle}</h5>
+            <a target="_blank" href={props.projectLink} className="flex w-fit">
+                <h5 className="mb-4 text-xl font-bold flex items-center gap-2 hover:underline dark:hover:text-sky-400 hover:text-sky-600 transition">{props.ProjectTitle} <BsBoxArrowUpRight /> </h5>
+            </a>
             <div className="mb-4 flex items-center text-sm font-medium lg:justify-start">
                 {props.frontend ? <Tag text="Front-End" borderColor="border-sky-400" bgColor="bg-sky-400" /> : null}
                 {props.backend ? <Tag text="Back-End" borderColor="border-orange-400" bgColor="bg-orange-400" /> : null}
