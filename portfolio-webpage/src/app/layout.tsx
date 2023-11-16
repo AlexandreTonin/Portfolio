@@ -6,7 +6,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Alexandre Tonin Portfolio',
+  title: 'Portfolio | Alexandre Tonin',
   description: 'Olá, bem-vindo ao meu portfólio! Me chamo Alexandre Tonin, desenvolvedor front-end, atualmente cursando Engenharia de Software. Explore meu trabalho e projetos, onde transformo ideias em experiências digitais envolventes. Descubra como minha paixão pela programação e minha busca contínua por aprimoramento podem elevar a presença online de sua empresa. Vamos criar algo incrível juntos.',
   icons: '/icon2.png'
 }
@@ -19,7 +19,9 @@ export default function RootLayout(
   }) {
   return (
     <html lang="en" className='sr'>
-      <head></head>
+      <head>
+        <meta property="og:title" content="Alexandre Tonin | Desenvolvedor Front-End" />
+      </head>
       <body className='bg-[#0d1117]'>
         {children}
         <Analytics />
