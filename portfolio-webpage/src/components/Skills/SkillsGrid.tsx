@@ -31,15 +31,16 @@ const SkillsGrid = (props: any) => {
                             <Skill tooltipLabel="Node.Js" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
                             <Skill tooltipLabel="Python" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                             <Skill tooltipLabel="Php" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg" />
+                            <Skill tooltipLabel="Laravel" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg" />
                             <Skill tooltipLabel="Java" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
-                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" />
-                            <Skill tooltipLabel="PostgreSQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" />
                         </> : null
                     }
 
                     {props.tools ?
                         <>
                             <Skill tooltipLabel="Git" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg" />
+                            <Skill tooltipLabel="PostgreSQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" />
+                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" />
                             <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
                             <Skill tooltipLabel="Linux" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
                             <Skill tooltipLabel="Jira" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" />
