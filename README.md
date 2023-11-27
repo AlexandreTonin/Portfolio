@@ -1,4 +1,4 @@
-<h2 align="center"> ❗ PORTFÓLIO EM DESENVOLVIMENTO ❗ </h2>
+<h2 align="center"> ❗ PORTFÓLIO (readme desatualizado) ❗ </h2>
 
 ## ☕ Olá, seja bem vindo ao meu Portfólio
 <p align="justify">Neste portfólio, você poderá visualizar diversos projetos <kbd>front-end</kbd> e <kbd>back-end</kbd> em que trabalhei, demonstrando o meu conhecimento em diferentes tecnologias e linguagens de programação. Desde a criação de interfaces responsivas com <kbd>HTML, CSS e JavaScript</kbd> até o desenvolvimento de aplicativos dinâmicos com <kbd>frameworks</kbd> e <kbd>bibliotecas</kbd>. Estou constantemente buscando aprimorar minhas habilidades e aprender novas tecnologias.</p>
