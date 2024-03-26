@@ -4,13 +4,16 @@ import Hero from "./components/layout/Hero";
 import { useEffect, useState } from "react";
 import Lottie from "lottie-react";
 import loading from "@assets/lottie/load1ng.json";
-import { Fade, Reveal } from "react-awesome-reveal";
+import { Fade, Reveal, Slide } from "react-awesome-reveal";
+import Sidebar from "./components/layout/Sidebar";
 
 const LoadingScreen = () => {
   return (
     <div className="loading-screen h-screen bg-primary text-white w-screen flex items-center justify-center flex-col">
-      <h1 className="text-3xl font-medium">{"<AlexandreTonin />"}</h1>
-      <Lottie animationData={loading} className="w-1/4 h-40"></Lottie>
+      <Fade direction="up" cascade>
+        <h1 className="text-3xl font-medium">{"<AlexandreTonin />"}</h1>
+      </Fade>
+      <Lottie animationData={loading} className="w-1/4 h-40 -mt-10"></Lottie>
     </div>
   );
 };
@@ -31,11 +34,11 @@ function App() {
       {isLoading ? (
         <LoadingScreen />
       ) : (
-        <div className="h-screen bg-primary">
-          <Fade duration={3000}>
-            <Header />
-            <Hero />
-          </Fade>
+        <div className="min-h-screen bg-primary p-6 flex gap-6">
+            {/* <Header /> */}
+            {/* <Hero /> */}
+              <Sidebar />
+              <main className="text-white border border-lightGray rounded-lg w-3/4 p-6">a</main>
         </div>
       )}
     </>
