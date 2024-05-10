@@ -15,7 +15,7 @@ const SkillsGrid = (props: any) => {
                                 <Skill tooltipLabel="CSS3" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
                                 <Skill tooltipLabel="Sass" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" />
                                 <Skill tooltipLabel="Bootstrap" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" />
-                                <Skill tooltipLabel="TailwindCSS" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" />
+                                <Skill tooltipLabel="TailwindCSS" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" />
                                 <Skill tooltipLabel="JavaScript" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
                                 <Skill tooltipLabel="TypeScript" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" />
                                 <Skill tooltipLabel="React.Js / React Native" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
@@ -30,8 +30,7 @@ const SkillsGrid = (props: any) => {
                         <>
                             <Skill tooltipLabel="Node.Js" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
                             <Skill tooltipLabel="Python" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-                            <Skill tooltipLabel="Php" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg" />
-                            <Skill tooltipLabel="Laravel" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg" />
+                            <Skill tooltipLabel="Php" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" />
                             <Skill tooltipLabel="Java" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
                         </> : null
                     }
@@ -40,7 +39,7 @@ const SkillsGrid = (props: any) => {
                         <>
                             <Skill tooltipLabel="Git" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg" />
                             <Skill tooltipLabel="PostgreSQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" />
-                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" />
+                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
                             <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
                             <Skill tooltipLabel="Linux" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
                             <Skill tooltipLabel="Jira" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" />
