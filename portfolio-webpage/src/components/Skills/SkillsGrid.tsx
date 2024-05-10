@@ -28,7 +28,7 @@ const SkillsGrid = (props: any) => {
 
                     {props.backend ?
                         <>
-                            <Skill tooltipLabel="Node.Js" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
+                            <Skill tooltipLabel="Node.Js" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
                             <Skill tooltipLabel="Python" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
                             <Skill tooltipLabel="Php" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" />
                             <Skill tooltipLabel="Java" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
@@ -48,7 +48,7 @@ const SkillsGrid = (props: any) => {
                             <Skill tooltipLabel="Vitejs" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" />
                             <Skill tooltipLabel="Postman" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" />
                             <Skill tooltipLabel="Jira" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" />
-                            <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />                            https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg
+                            <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
                         </>
                         : null
                     }
