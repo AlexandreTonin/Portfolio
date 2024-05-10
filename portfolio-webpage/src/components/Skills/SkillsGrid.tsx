@@ -37,13 +37,18 @@ const SkillsGrid = (props: any) => {
 
                     {props.tools ?
                         <>
-                            <Skill tooltipLabel="Git" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg" />
-                            <Skill tooltipLabel="PostgreSQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" />
-                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
-                            <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />
                             <Skill tooltipLabel="Linux" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
+                            <Skill tooltipLabel="Git" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg" />
+                            <Skill tooltipLabel="Docker" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" />
+                            <Skill tooltipLabel="Sqldeveloper" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqldeveloper/sqldeveloper-original.svg" />
+                            <Skill tooltipLabel="Oracle PL/SQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" />
+                            <Skill tooltipLabel="MySql" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+                            <Skill tooltipLabel="PostgreSQL" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg" />
+                            <Skill tooltipLabel="NPM" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" />
+                            <Skill tooltipLabel="Vitejs" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" />
+                            <Skill tooltipLabel="Postman" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" />
                             <Skill tooltipLabel="Jira" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" />
-                            <Skill tooltipLabel="Unity" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" />
+                            <Skill tooltipLabel="Figma" imgUrl="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" />                            https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg
                         </>
                         : null
                     }
