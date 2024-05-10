@@ -53,9 +53,9 @@ const Hero = () => {
                 <RevealWrapper origin='top' delay={8000} duration={2000} className="load-hidden">
                     <div className='flex mt-20 gap-8 flex-wrap'>
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+                        <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-                        <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
-                        <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" />
+                        <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" />
                         <img height={60} width={50} loading="lazy" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" />
                     </div>
