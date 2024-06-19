@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio | Alexandre Tonin',
-  description: 'Olá, bem-vindo ao meu portfólio! Me chamo Alexandre Tonin, desenvolvedor front-end, atualmente cursando Engenharia de Software. Explore meu trabalho e projetos, onde transformo ideias em experiências digitais envolventes.',
+  description: 'Olá, bem-vindo ao meu portfólio! Me chamo Alexandre Tonin, desenvolvedor web fullstack, atualmente cursando Engenharia de Software. Explore meu trabalho e projetos.',
   icons: '/icon2.png'
 }
 
@@ -20,8 +20,8 @@ export default function RootLayout(
   return (
     <html lang="pt-br" className='sr'>
       <head>
-        <meta property="og:title" content="Alexandre Tonin | Desenvolvedor Front-End" />
-          <meta property='og:description' content='Olá, bem-vindo ao meu portfólio! Me chamo Alexandre Tonin, desenvolvedor front-end, atualmente cursando Engenharia de Software. Explore meu trabalho e projetos, onde transformo ideias em experiências digitais envolventes.'/>
+        <meta property="og:title" content="Alexandre Tonin | Desenvolvedor Web Fullstack" />
+          <meta property='og:description' content='Olá, bem-vindo ao meu portfólio! Me chamo Alexandre Tonin, desenvolvedor web fullstack, atualmente cursando Engenharia de Software. Explore meu trabalho e projetos.'/>
           <meta property='og:url' content='https://alexandretonin.com/' />
           <meta property='og:type' content='website' />
       </head>
